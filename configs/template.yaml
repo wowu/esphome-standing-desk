@@ -1,6 +1,6 @@
 external_components:
-  - source: github://tjhorner/esphome-standing-desk
-    components: [ standing_desk_height ]
+  - source: github://wowu/esphome-standing-desk
+    components: [standing_desk_height]
 
 substitutions:
   desk_height_name: "Desk Height"
@@ -27,7 +27,7 @@ output:
     pin:
       number: ${standing_desk_up_pin}
       allow_other_uses: true
-    
+
   - platform: gpio
     inverted: true
     id: standing_desk_down_pin
