@@ -9,8 +9,8 @@ namespace standing_desk_height {
 class PokarDecoder : public Decoder {
   private:
     // decode binary 7 segment display data
-    int decode_7seg(uint8_t b) { }
-    bool dot(uint8_t b) { }
+    int decode_7seg(uint8_t b);
+    bool dot(uint8_t b);
 
   protected:
     enum state_t {
