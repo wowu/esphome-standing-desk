@@ -1,6 +1,6 @@
-# external_components:
-#   - source: github://wowu/esphome-standing-desk
-#     components: [standing_desk_height]
+external_components:
+  - source: github://wowu/esphome-standing-desk
+    components: [standing_desk_height]
 
 substitutions:
   desk_height_name: "Desk Height"
