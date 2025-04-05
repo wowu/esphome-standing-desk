@@ -27,7 +27,7 @@ DecoderVariants = standing_desk_height_ns.enum("DecoderVariants")
 DECODER_VARIANTS = {
     "auto": DecoderVariants.DECODER_VARIANT_UNKNOWN,
     "uplift": DecoderVariants.DECODER_VARIANT_UPLIFT,
-    # "jarvis": DecoderVariants.DECODER_VARIANT_JARVIS,
+    "jarvis": DecoderVariants.DECODER_VARIANT_JARVIS,
     "omnidesk": DecoderVariants.DECODER_VARIANT_OMNIDESK,
     "pokar": DecoderVariants.DECODER_VARIANT_POKAR,
 }
